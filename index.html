@@ -12,9 +12,9 @@
          body {
             margin:0;
             color: rgb(190, 218, 218);
-            background-color:rgb(161, 30, 30);
+            background-color:rgb(54, 2, 2);
             font-family: system-ui, Arial, sans-serif;
-            line-height:1.5;
+            line-height:1.2;
          }
          .container{
             width: 900px;
@@ -24,11 +24,83 @@
          }
          .box{
             background: rgb(107, 25, 25);
-            border: 1px solid rgba(24, 3, 3, 0.35);
-            border-radius: 12px
+            border: 1px solid rgba(247, 239, 239, 0.35);
+            border-radius: 10px;
             padding: 14px;
-            margin-bottom: 12px;
+            margin-bottom: 5px;
+         } 
+
+         h1, h2{
+            color: rgb(192, 78, 12);
+            margin: 0 0 8px;
          }
+
+         .subtitulo{
+            margin: 0;
+            color: #d1d5db
+         }
+
+         p{
+            color: rgb(244, 250, 245)
+         }
+
+         #apresentacao{
+            border-left: 8px solid rgb(192, 78, 12);
+         }
+
+         .nav{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            flex-wrap: nowrap;
+         }
+
+        .nav-link{
+            display: inline-block;
+            text-decoration: none;
+            color:black;
+            background: rgb(192, 78, 12);
+            padding: 8px 10px;
+            border-radius: 10px;
+            font-weight: 600;
+
+        }
+
+        .nav-link:hover{
+            background: rgb(41, 120, 224);
+        }
+
+        .gallery{
+            width: 920px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: nowrap;
+        }
+
+        .bat-img{
+            width: 220px;
+            height: 120px;
+            border: 2px solid rgb(190, 218, 218);
+            border-radius: 10px;
+        }
+
+       
+
+        footer p{
+            color: rgb(231, 165, 217);
+            margin: 6px 0 0;
+        }
+
+         .link {
+            color: rgb(192, 78, 12);
+            text-decoration: none;
+        }
+
+        .link:hover{
+            text-decoration: underline;
+        }
 
     </style>
 </head>
@@ -42,6 +114,7 @@
                     Gotham City: <strong>vigilância</strong>, <em>estratégia</em> e tecnologia.
             </div>
         </header>
+        
         <nav class="box" id="menu">
             <ul class="nav">
                 <li><a class="nav-link" href="#apresentacao">Quem é?</a></li>
@@ -67,9 +140,9 @@
             <section class="box" id="galeria">
                 <h2>Galeria</h2>
                 <div class="gallery" id="galeria-imagens">
-                    <img class="bat-img" src="batman_3.jfif" alt="Imagem Batman raivoso" width="220px" heigth="120">
-                    <img class="bat-img" src="batman_2.jpg" alt="Imagem Batman no trono" width="220px" heigth="120">
-                    <img class="bat-img" src="batman_1.jpg" alt="Imagem Batman atuando" width="220px" heigth="120">
+                    <img class="bat-img" src="batman_3.jfif" alt="Imagem Batman raivoso">
+                    <img class="bat-img" src="batman_2.jpg" alt="Imagem Batman no trono">
+                    <img class="bat-img" src="batman_1.jpg" alt="Imagem Batman atuando">
                 </div>
 
             </section>
